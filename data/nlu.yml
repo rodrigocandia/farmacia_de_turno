@@ -1,0 +1,67 @@
+version: "2.0"
+
+nlu:
+- intent: saludar
+  examples: |
+    - hola
+    - alo
+    - buenas tardes
+    - buenas noches
+    - que tal
+    - ola
+    - hola hola
+    - hola buenas
+
+- intent: confirmacion
+  examples: |
+    - perdecto
+    - si
+    - siiii
+    - genial muchas gracias
+    - ok
+
+- intent: despedida
+  examples: |
+    - hasta pronto
+    - chao
+    - adios
+    - xao
+    - hasta luego
+    - gracias por tu ayuda
+    - genial, muchas gracias
+    - muchas gracias
+    - gracias
+
+- intent: negar
+  examples: |
+    - no
+    - quiero modificar
+    - nooo
+    - No, esta bien
+    - me equivoque
+    - ninguna modificación
+    - puedo arreglar algo?
+
+- intent: bot_challenge
+  examples: |
+    - ¿Eres un bot?
+    - ¿Estoy hablando con un ia?
+    - ¿eres un humano o un bot?
+    - ¿eres real?
+    - eres una persona?
+    - quien eres?
+    - como te llamas?
+    - ¿eres virtual?
+    - ¿eres un ia?
+    - ¿no eres un bot?
+    - ¿eres un chatbot?
+    - ¿eres un verdadero bot?
+    - Eres un bot
+    - eres ia
+    - eres artificial
+    - eres inteligencia artificial
+    - eres real
+    - ¿eres realmente un bot?
+    - eres un robot
+    - ¿Estás seguro de que eres un bot?
+    - ¿Bot?

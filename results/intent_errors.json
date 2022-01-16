@@ -1,0 +1,10 @@
+[
+  {
+    "text": "genial muchas gracias",
+    "intent": "confirmacion",
+    "intent_prediction": {
+      "name": "despedida",
+      "confidence": 0.6473779082298279
+    }
+  }
+]

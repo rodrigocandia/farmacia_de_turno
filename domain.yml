@@ -11,6 +11,9 @@ responses:
   utter_saludar:
   - text: "¡Hola! Bienvenido, Hablas con MAX tu asistente personal, ¿Cuál es la comuna que buscas?"
 
+  utter_iamabot:
+  - text: Soy un ChatBot, Creado por "CHAT EVOLUTION" para indicarte cual es tu farmacia de turno
+  
 session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
